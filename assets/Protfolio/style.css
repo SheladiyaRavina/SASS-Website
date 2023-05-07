@@ -1,0 +1,330 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+body {
+  background-color: rgba(6, 6, 6, 0.987);
+}
+
+header {
+  width: 100%;
+  border-bottom: 1px solid rgba(172, 172, 172, 0.2156862745);
+  background-color: rgba(6, 6, 6, 0.987);
+  position: sticky;
+  top: 0;
+}
+header .logo {
+  height: 80px;
+}
+header .logo img {
+  width: 130px;
+  height: 45px;
+}
+header .menu ul li {
+  padding: 0px 17px;
+}
+header .menu ul li a {
+  font-size: 16px;
+  color: #65676B;
+  font-family: "Inter";
+  text-align: center;
+  text-transform: capitalize;
+}
+header .btn button {
+  border: 0;
+  padding: 0px 20px;
+  color: #ffffff;
+  font-family: "Inter";
+  background: linear-gradient(95deg, #059DFF 15%, #6549D5 45%, #E33FA1 75%, #FB5343 100%) 95%/200% 100%;
+  border-radius: 20px;
+  width: 115px;
+  height: 40px;
+}
+
+.prot {
+  width: 100%;
+  padding: 120px 0px 30px;
+}
+.prot .p-btn button {
+  background-color: #0f0f11;
+  font-size: 14px;
+  text-align: center;
+  font-family: "Inter";
+  border-radius: 10px;
+  border: 0px;
+  width: 162px;
+  height: 32px;
+  margin-bottom: 7px;
+}
+.prot .p-btn button h2 {
+  background: linear-gradient(95deg, #059DFF 15%, #6549D5 45%, #E33FA1 75%, #FB5343 100%) 95%/200% 100%;
+  text-transform: capitalize;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 18px;
+}
+.prot h3 {
+  font-size: 44px;
+  font-family: "Inter";
+  color: #ffffff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.gallery {
+  width: 100%;
+  padding: 0px 0px 100px;
+}
+.gallery ul li {
+  padding: 10px 15px;
+  transition: all 2s;
+}
+.gallery ul li a {
+  color: #ACACAC;
+  font-size: 16px;
+  font-family: "Inter";
+  font-weight: 700;
+}
+.gallery ul li:first-child a {
+  background-color: #059DFF;
+  border-radius: 5px;
+  padding: 10px 15px;
+  color: #ffffff;
+}
+.gallery ul li:hover a {
+  background-color: #059DFF;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 10px 15px;
+  margin: 5px;
+}
+.gallery .g-img {
+  width: 100%;
+  height: 604px;
+  background-color: #0f0f11;
+  border-radius: 10px;
+}
+.gallery .g-img img {
+  width: 100%;
+  height: 468px;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 3s;
+}
+.gallery .g-img .g-title {
+  padding: 22px 30px 30px;
+}
+.gallery .g-img .g-title h3 {
+  font-size: 20px;
+  margin: 15px 0px 10px;
+  color: #ffffff;
+  font-family: "Inter";
+}
+.gallery .g-img .g-title p {
+  font-size: 16px;
+  color: #65676B;
+  font-family: "Inter";
+  text-align: center;
+  text-align: left;
+  color: #ACACAC;
+}
+.gallery .gallery-btn button {
+  border: 0;
+  padding: 0px 20px;
+  color: #ffffff;
+  font-family: "Inter";
+  background: linear-gradient(95deg, #059DFF 15%, #6549D5 45%, #E33FA1 75%, #FB5343 100%) 95%/200% 100%;
+  border-radius: 20px;
+  width: 193px;
+  height: 60px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin: 40px 0px;
+}
+
+footer {
+  width: 100%;
+}
+footer .start {
+  width: 100%;
+  padding: 100px 0px 70px;
+}
+footer .start h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-family: "Inter";
+}
+footer .start ul li {
+  padding: 10px 0px;
+}
+footer .start ul li a {
+  color: #ACACAC;
+  font-family: "Inter";
+  text-transform: capitalize;
+  font-weight: 300;
+  position: relative;
+}
+footer .start ul li a::after {
+  width: 0%;
+  position: absolute;
+  content: "";
+  border: 0.3px solid #059DFF;
+  bottom: 0;
+  left: 0;
+  transition: all 1s;
+  opacity: 0;
+}
+footer .start ul li a:hover {
+  color: #059DFF;
+}
+footer .start ul li a:hover::after {
+  width: 100%;
+  opacity: 1;
+}
+footer .start p {
+  color: #ACACAC;
+  margin-bottom: 32px;
+  font-size: 16px;
+  color: #65676B;
+  font-family: "Inter";
+  text-align: center;
+  padding-right: 120px;
+  line-height: 30px;
+  text-align: left;
+  font-weight: 600;
+}
+footer .start .f-icon .icon {
+  width: 48px;
+  height: 48px;
+  background-color: #0f0f11;
+  border-radius: 50%;
+  margin: 0px 5px;
+  text-align: center;
+  transition: all 2s;
+}
+footer .start .f-icon .icon i {
+  color: #ffffff;
+  line-height: 48px;
+}
+footer .start .f-icon .icon:hover {
+  background-color: #059DFF;
+}
+footer .center {
+  width: 100%;
+  padding: 40px 0px;
+  border-bottom: 1px solid rgba(172, 172, 172, 0.2156862745);
+}
+footer .center img {
+  width: 158px;
+  height: 55px;
+  margin-bottom: 10px;
+}
+footer .center p {
+  font-size: 16px;
+  color: #65676B;
+  font-family: "Inter";
+  text-align: center;
+  text-align: left;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 1.7;
+}
+footer .center .c-btn button {
+  border: 0;
+  padding: 0px 20px;
+  color: #ffffff;
+  font-family: "Inter";
+  background: linear-gradient(95deg, #059DFF 15%, #6549D5 45%, #E33FA1 75%, #FB5343 100%) 95%/200% 100%;
+  border-radius: 20px;
+  font-size: 16px;
+  margin-left: 20px;
+  border-radius: 10px;
+  height: 50px;
+  width: 203px;
+}
+footer .center .c-btn button i {
+  margin: 0px 7px;
+}
+footer .end {
+  width: 100%;
+  height: 70px;
+  border-top: 1px solid rgba(172, 172, 172, 0.2156862745);
+  padding: 20px 0px;
+}
+footer .end h4,
+footer .end h6 {
+  color: #ACACAC;
+  font-size: 16px;
+  color: #65676B;
+  font-family: "Inter";
+  text-align: center;
+  font-weight: 500;
+  position: relative;
+}
+footer .end .line {
+  width: 1px;
+  height: 20px;
+  background-color: rgba(172, 172, 172, 0.2156862745);
+  margin: 0px 8px;
+}
+footer .end h4::after {
+  width: 0%;
+  position: absolute;
+  content: "";
+  border: 0.3px solid #059DFF;
+  bottom: 0;
+  left: 0;
+  transition: all 1s;
+  opacity: 0;
+}
+footer .end h4:hover {
+  color: #059DFF;
+}
+footer .end h4:hover::after {
+  width: 100%;
+  opacity: 1;
+}
+footer .end h6 {
+  font-size: 14px;
+  font-weight: 500;
+}/*# sourceMappingURL=style.css.map */

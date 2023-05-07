@@ -1,0 +1,1103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+body {
+  background-color: rgba(6, 6, 6, 0.987);
+}
+
+.top {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #0f0f11;
+  text-align: center;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  line-height: 40px;
+  color: #ffffff;
+}
+
+.top:hover i {
+  color: #059DFF;
+}
+
+header {
+  width: 100%;
+  border-bottom: 1px solid rgba(172, 172, 172, 0.2156862745);
+  background-color: rgba(6, 6, 6, 0.987);
+  position: sticky;
+  top: 0;
+}
+header .logo {
+  height: 80px;
+}
+header .logo img {
+  width: 130px;
+  height: 45px;
+}
+header .menu ul li {
+  padding: 0px 17px;
+}
+header .menu ul li a {
+  font-size: 16px;
+  color: #65676B;
+  font-family: "Inter";
+  text-align: center;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+header .toggle i {
+  font-size: 24px;
+  color: #ffffff;
+}
+header .btn button {
+  border: 0;
+  padding: 0px 20px;
+  color: #ffffff;
+  font-family: "Inter";
+  background: linear-gradient(95deg, #059DFF 15%, #6549D5 45%, #E33FA1 75%, #FB5343 100%) 95%/200% 100%;
+  border-radius: 20px;
+  width: 115px;
+  height: 40px;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
+}
+
+.slider {
+  width: 100%;
+  padding: 100px 0px 150px;
+  border-bottom: 1px solid rgba(172, 172, 172, 0.2156862745);
+}
+.slider .content h2 {
+  color: #ffffff;
+  font-size: 85px;
+  margin-bottom: 20px;
+  font-family: "Inter";
+}
+.slider .content span .is-visible {
+  background: linear-gradient(95deg, #059DFF 15%, #6549D5 45%, #E33FA1 75%, #FB5343 100%) 95%/200% 100%;
+  text-transform: capitalize;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 85px;
+  margin-bottom: 20px;
+  font-family: "Inter";
+}
+.slider h3, .slider h4 {
+  font-size: 25px;
+  color: #ACACAC;
+  text-align: center;
+  font-family: "Inter";
+  line-height: 1.7;
+  font-weight: 500;
+}
+.slider h4 {
+  margin-bottom: 40px;
+}
+.slider .s-btn h5 {
+  text-align: center;
+  line-height: 65px;
+  border: 0;
+  padding: 0px 20px;
+  color: #ffffff;
+  font-family: "Inter";
+  background: linear-gradient(95deg, #059DFF 15%, #6549D5 45%, #E33FA1 75%, #FB5343 100%) 95%/200% 100%;
+  border-radius: 20px;
+  width: 270px;
+  height: 65px;
+  font-size: 16px;
+  color: #ffffff;
+  border-radius: 40px;
+  margin: 10px;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
+}
+.slider .s-btn i {
+  margin: 0px 10px;
+}
+.slider .s-btn button {
+  border: 0;
+  padding: 0px 20px;
+  color: #ffffff;
+  font-family: "Inter";
+  background: linear-gradient(95deg, #059DFF 15%, #6549D5 45%, #E33FA1 75%, #FB5343 100%) 95%/200% 100%;
+  border-radius: 20px;
+  width: 270px;
+  height: 65px;
+  font-size: 16px;
+  color: #ffffff;
+  border-radius: 40px;
+  margin: 10px;
+  background: rgba(6, 6, 6, 0.987);
+  border: 2px solid rgba(172, 172, 172, 0.2156862745);
+}
+.slider .s-btn button i {
+  margin: 0px 10px;
+}
+.slider p {
+  font-size: 16px;
+  color: #65676B;
+  font-family: "Inter";
+  text-align: center;
+  margin: 30px 0px;
+}
+
+.logos {
+  width: 100%;
+  padding: 120px 0px 0px;
+}
+.logos button {
+  background-color: #0f0f11;
+  font-size: 16px;
+  text-align: center;
+  font-family: "Inter";
+  border-radius: 5px;
+  border: 0;
+  text-align: center;
+}
+.logos button h3 {
+  text-align: center;
+  background: linear-gradient(95deg, #059DFF 15%, #6549D5 45%, #E33FA1 75%, #FB5343 100%) 95%/200% 100%;
+  text-transform: capitalize;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 210px;
+  font-weight: 400;
+}
+.logos .logo-img img {
+  width: 100%;
+  height: 90%;
+}
+
+.case {
+  width: 100%;
+  padding: 120px 0px;
+  border-bottom: 1px solid rgba(172, 172, 172, 0.2156862745);
+}
+.case .c-title {
+  text-align: center;
+}
+.case .c-title button {
+  background-color: #0f0f11;
+  font-size: 16px;
+  text-align: center;
+  font-family: "Inter";
+  border-radius: 5px;
+  border: 0;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.case .c-title button h3 {
+  text-align: center;
+  background: linear-gradient(95deg, #059DFF 15%, #6549D5 45%, #E33FA1 75%, #FB5343 100%) 95%/200% 100%;
+  text-transform: capitalize;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 120px;
+  font-weight: 400;
+}
+.case .c-title h4 {
+  color: #ffffff;
+  font-family: "Inter";
+  margin-bottom: 20px;
+  font-size: 44px;
+  text-align: center;
+}
+.case .c-title p,
+.case .c-title span {
+  font-size: 16px;
+  color: #65676B;
+  font-family: "Inter";
+  text-align: center;
+  font-size: 18px;
+  line-height: 30px;
+}
+.case .c-title span {
+  padding: 0px 180px;
+  margin-bottom: 30px;
+}
+.case .tab {
+  width: 100%;
+  background-color: #0f0f11;
+  border: 1px solid rgba(172, 172, 172, 0.2156862745);
+  border-radius: 10px;
+  margin-top: 40px;
+}
+.case .tab .step1 {
+  padding: 40px;
+}
+.case .tab .step1 h5 {
+  background: linear-gradient(95deg, #059DFF 15%, #6549D5 45%, #E33FA1 75%, #FB5343 100%) 95%/200% 100%;
+  text-transform: capitalize;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 16px;
+  color: #65676B;
+  font-family: "Inter";
+  text-align: center;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.case .tab .step1 h3 {
+  font-size: 36px;
+  font-family: "Inter";
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.case .tab .step1 p {
+  font-size: 14px;
+  color: #ACACAC;
+  font-family: "Inter";
+  line-height: 25px;
+}
+.case .tab .step1 .c-box, .case .tab .step1 .c1-box {
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  background-color: rgba(45, 45, 45, 0.227);
+  border-radius: 10px;
+  margin: 20px 0px;
+  padding: 10px;
+}
+.case .tab .step1 .c-box .square, .case .tab .step1 .c1-box .square {
+  width: 60px;
+  background-color: rgba(0, 81, 255, 0.069);
+  border-radius: 5px;
+  text-align: center;
+  line-height: 82px;
+}
+.case .tab .step1 .c-box .square i, .case .tab .step1 .c1-box .square i {
+  color: #059DFF;
+  font-size: 24px;
+}
+.case .tab .step1 .c-box .content-b h2, .case .tab .step1 .c1-box .content-b h2 {
+  color: #ffffff;
+  font-family: "Inter";
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.case .tab .step1 .c-box .content-b p, .case .tab .step1 .c1-box .content-b p {
+  font-size: 16px;
+  color: #65676B;
+  font-family: "Inter";
+  text-align: center;
+  font-size: 14px;
+  text-align: left;
+}
+.case .tab .step1 .c1-box {
+  border: 1px solid rgba(172, 172, 172, 0.2156862745);
+  background-color: transparent;
+}
+.case .tab .step1 .img img {
+  width: 100%;
+  border-radius: 8px;
+}
+.case .c-tab .step2,
+.case .c-tab .step3 {
+  width: 530px;
+  background-color: #0f0f11;
+  border-radius: 10px;
+  margin: 40px 20px;
+  padding: 50px;
+}
+.case .c-tab .step2 .c-content,
+.case .c-tab .step3 .c-content {
+  color: #ffffff;
+}
+.case .c-tab .step2 .c-content h6,
+.case .c-tab .step3 .c-content h6 {
+  background: linear-gradient(95deg, #059DFF 15%, #6549D5 45%, #E33FA1 75%, #FB5343 100%) 95%/200% 100%;
+  text-transform: capitalize;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Inter";
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.case .c-tab .step2 .c-content h4,
+.case .c-tab .step3 .c-content h4 {
+  font-size: 24px;
+  font-family: "Inter";
+  margin-bottom: 25px;
+}
+.case .c-tab .step2 .c-content p,
+.case .c-tab .step3 .c-content p {
+  font-size: 16px;
+  color: #65676B;
+  font-family: "Inter";
+  text-align: center;
+  margin-bottom: 52px;
+  text-align: left;
+}
+.case .c-tab .step2 .c-img img,
+.case .c-tab .step3 .c-img img {
+  width: 478px;
+  height: 300px;
+  border-radius: 10px 0px 10px 0px;
+}
+
+.phone {
+  width: 100%;
+  padding-top: 120px;
+  border-bottom: 1px solid rgba(172, 172, 172, 0.2156862745);
+}
+.phone button {
+  background-color: #0f0f11;
+  font-size: 16px;
+  text-align: center;
+  font-family: "Inter";
+  border-radius: 5px;
+  border: 0;
+  width: 280px;
+  height: 32px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.phone button h3 {
+  text-align: center;
+  background: linear-gradient(95deg, #059DFF 15%, #6549D5 45%, #E33FA1 75%, #FB5343 100%) 95%/200% 100%;
+  text-transform: capitalize;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 280px;
+  font-weight: 400;
+}
+.phone h4, .phone h5 {
+  font-size: 44px;
+  font-family: "Inter";
+  color: #ffffff;
+}
+.phone h5 {
+  background: linear-gradient(95deg, #059DFF 15%, #6549D5 45%, #E33FA1 75%, #FB5343 100%) 95%/200% 100%;
+  text-transform: capitalize;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
+}
+.phone p {
+  font-size: 16px;
+  color: #65676B;
+  font-family: "Inter";
+  text-align: center;
+  color: #ACACAC;
+  margin-bottom: 30px;
+  line-height: 30px;
+  text-align: left;
+}
+.phone .p-btn {
+  border: 0;
+  padding: 0px 20px;
+  color: #ffffff;
+  font-family: "Inter";
+  background: linear-gradient(95deg, #059DFF 15%, #6549D5 45%, #E33FA1 75%, #FB5343 100%) 95%/200% 100%;
+  border-radius: 20px;
+  border-radius: 10px;
+  height: 55px;
+  width: 190px;
+}
+
+.service {
+  width: 100%;
+  padding: 120px 0px;
+  text-align: center;
+}
+.service button {
+  background-color: #0f0f11;
+  font-size: 16px;
+  text-align: center;
+  font-family: "Inter";
+  border-radius: 5px;
+  border: 0;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.service button h3 {
+  text-align: center;
+  background: linear-gradient(95deg, #059DFF 15%, #6549D5 45%, #E33FA1 75%, #FB5343 100%) 95%/200% 100%;
+  text-transform: capitalize;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 200px;
+  font-weight: 400;
+  font-size: 16px;
+}
+.service h3, .service h5 {
+  font-size: 16px;
+  color: #65676B;
+  font-family: "Inter";
+  text-align: center;
+  color: #ffffff;
+  font-size: 44px;
+}
+.service h5 {
+  margin-bottom: 20px;
+}
+.service .s-content {
+  margin: 0px auto;
+}
+.service .s-content .circle {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  background-color: rgba(5, 155, 255, 0.0980392157);
+}
+.service .s-content .circle i {
+  font-size: 45px;
+  text-align: center;
+  color: #059DFF;
+}
+.service .s-content .circle1 {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  background-color: rgba(251, 82, 67, 0.0862745098);
+}
+.service .s-content .circle1 i {
+  font-size: 45px;
+  text-align: center;
+  color: #FB5343;
+}
+.service .s-content .circle2 {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  background-color: rgba(101, 73, 213, 0.0941176471);
+}
+.service .s-content .circle2 i {
+  font-size: 45px;
+  text-align: center;
+  color: #6549D5;
+}
+.service .s-content h5 {
+  font-size: 24px;
+  font-family: "Inter";
+  color: #ffffff;
+}
+.service .s-content h6 {
+  font-size: 16px;
+  color: #65676B;
+  font-family: "Inter";
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 0px 35px;
+  line-height: 30px;
+}
+
+.client {
+  width: 100%;
+  padding: 120px 0px;
+}
+.client h4 {
+  background: linear-gradient(95deg, #059DFF 15%, #6549D5 45%, #E33FA1 75%, #FB5343 100%) 95%/200% 100%;
+  text-transform: capitalize;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 16px;
+  color: #65676B;
+  font-family: "Inter";
+  text-align: center;
+  margin-bottom: 12px;
+}
+.client h5 {
+  font-family: "Inter";
+  color: #ffffff;
+  font-size: 44px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.client .c-box h2 {
+  color: #ffffff;
+  font-size: 18px;
+  font-size: 16px;
+  color: #65676B;
+  font-family: "Inter";
+  text-align: center;
+  padding: 24px 44px;
+}
+.client .c-box h2:hover {
+  background-color: #1e1e1e;
+}
+.client .c-box .client-name:first-child {
+  background-color: #1e1e1e;
+}
+.client .client-box {
+  width: 100%;
+  background-color: #0f0f11;
+  border-radius: 10px;
+  padding: 40px 40px 0px;
+}
+.client .client-box h3 {
+  background: linear-gradient(95deg, #059DFF 15%, #6549D5 45%, #E33FA1 75%, #FB5343 100%) 95%/200% 100%;
+  text-transform: capitalize;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Inter";
+  margin-bottom: 20px;
+}
+.client .client-box h2 {
+  font-family: "Inter";
+  color: #ffffff;
+  font-size: 44px;
+  margin-bottom: 20px;
+}
+.client .client-box p {
+  font-size: 16px;
+  color: #65676B;
+  font-family: "Inter";
+  text-align: center;
+  margin-bottom: 30px;
+  line-height: 30px;
+  text-align: left;
+}
+.client .client-box button {
+  border: 0;
+  padding: 0px 20px;
+  color: #ffffff;
+  font-family: "Inter";
+  background: linear-gradient(95deg, #059DFF 15%, #6549D5 45%, #E33FA1 75%, #FB5343 100%) 95%/200% 100%;
+  border-radius: 20px;
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+}
+.client .client-box .client-img img {
+  width: 100%;
+  height: 490px;
+}
+
+.feedback {
+  width: 100%;
+  padding: 120px 0px 100px;
+  border-bottom: 1px solid rgba(172, 172, 172, 0.2156862745);
+}
+.feedback .feed h4 {
+  background: linear-gradient(95deg, #059DFF 15%, #6549D5 45%, #E33FA1 75%, #FB5343 100%) 95%/200% 100%;
+  text-transform: capitalize;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 16px;
+  color: #65676B;
+  font-family: "Inter";
+  text-align: center;
+  margin-bottom: 12px;
+}
+.feedback .feed h5 {
+  font-size: 16px;
+  color: #65676B;
+  font-family: "Inter";
+  text-align: center;
+  font-size: 44px;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+.feedback .feedback-box .fe-img {
+  position: relative;
+}
+.feedback .feedback-box .fe-img img {
+  position: absolute;
+  content: "";
+  top: -75px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 138px;
+  height: 138px;
+  border-radius: 50%;
+  border: 6px solid rgba(172, 172, 172, 0.1058823529);
+}
+.feedback .feedback-box .f-box {
+  background-color: rgba(172, 172, 172, 0.1058823529);
+  border-radius: 10px;
+  padding: 85px 20px 35px;
+}
+.feedback .feedback-box .f-box p {
+  font-size: 16px;
+  color: #65676B;
+  font-family: "Inter";
+  text-align: center;
+  color: #ACACAC;
+  margin-bottom: 14px;
+  line-height: 1.7;
+}
+.feedback .feedback-box .f-box h3 {
+  font-size: 16px;
+  color: #65676B;
+  font-family: "Inter";
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+  margin-bottom: 2px;
+}
+.feedback .feedback-box .f-box h2 {
+  background: linear-gradient(95deg, #059DFF 15%, #6549D5 45%, #E33FA1 75%, #FB5343 100%) 95%/200% 100%;
+  text-transform: capitalize;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 16px;
+  color: #65676B;
+  font-family: "Inter";
+  text-align: center;
+}
+
+.pricing {
+  width: 100%;
+  padding: 120px 0px 100px;
+}
+.pricing .price h4 {
+  background: linear-gradient(95deg, #059DFF 15%, #6549D5 45%, #E33FA1 75%, #FB5343 100%) 95%/200% 100%;
+  text-transform: capitalize;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 16px;
+  color: #65676B;
+  font-family: "Inter";
+  text-align: center;
+  margin-bottom: 12px;
+}
+.pricing .price h5 {
+  font-size: 44px;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter";
+  margin-bottom: 20px;
+}
+.pricing .price p, .pricing .price h3 {
+  font-size: 18px;
+  font-size: 16px;
+  color: #65676B;
+  font-family: "Inter";
+  text-align: center;
+  color: #ACACAC;
+  line-height: 1.7;
+}
+.pricing .price h3 {
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+.pricing .pricing-box {
+  margin-bottom: 30px;
+}
+.pricing .pricing-box .pri-box {
+  width: 100%;
+  height: 577px;
+  background-color: #0f0f11;
+  border-radius: 10px;
+  padding: 40px;
+}
+.pricing .pricing-box .pri-box h4 {
+  font-size: 24px;
+  color: #ffffff;
+  font-size: 16px;
+  color: #65676B;
+  font-family: "Inter";
+  text-align: center;
+}
+.pricing .pricing-box .pri-box h2 {
+  font-size: 77px;
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.pricing .pricing-box .pri-box h2 p {
+  font-size: 28px;
+  color: #65676B;
+  font-weight: 300;
+  margin-top: 20px;
+}
+.pricing .pricing-box .pri-box h3 {
+  color: #ACACAC;
+  font-weight: 400;
+  font-size: 14px;
+  font-size: 16px;
+  color: #65676B;
+  font-family: "Inter";
+  text-align: center;
+}
+.pricing .pricing-box .pri-box .line {
+  width: 270px;
+  height: 1.5px;
+  background-color: rgba(172, 172, 172, 0.2156862745);
+  margin: 40px 0px;
+}
+.pricing .pricing-box .pri-box ul li {
+  margin: 15px 0px;
+  text-align: center;
+}
+.pricing .pricing-box .pri-box ul li a {
+  color: #ACACAC;
+  font-size: 18px;
+  font-family: "Inter";
+}
+.pricing .pricing-box .pri-box ul li a i {
+  margin: 0px 5px;
+}
+.pricing .pricing-box .pri-box .pr-btn button {
+  background: rgba(6, 6, 6, 0.987);
+  border: 2px solid rgba(172, 172, 172, 0.2156862745);
+  background-color: #0f0f11;
+  color: #ffffff;
+  width: 175px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 16px;
+  margin: 20px 0px;
+  transition: all 2s;
+}
+.pricing .pricing-box .pri-box .pr-btn button:hover {
+  background-color: #FB5343;
+  border: 2px solid #FB5343;
+}
+.pricing .pricing-box .price-box {
+  width: 100%;
+  height: 646px;
+  background-color: rgba(172, 172, 172, 0.1058823529);
+  border-radius: 10px;
+  padding: 40px;
+}
+.pricing .pricing-box .price-box h4 {
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter";
+  margin-top: 32px;
+}
+.pricing .pricing-box .price-box h2 {
+  font-size: 77px;
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.pricing .pricing-box .price-box h2 p {
+  font-size: 28px;
+  color: #ffffff;
+  font-weight: 300;
+  margin-top: 20px;
+}
+.pricing .pricing-box .price-box h3 {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  font-size: 16px;
+  color: #65676B;
+  font-family: "Inter";
+  text-align: center;
+}
+.pricing .pricing-box .price-box .line {
+  width: 270px;
+  height: 1.5px;
+  background-color: rgba(172, 172, 172, 0.2156862745);
+  margin: 40px 0px;
+}
+.pricing .pricing-box .price-box ul li {
+  margin: 15px 0px;
+  text-align: center;
+}
+.pricing .pricing-box .price-box ul li a {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: "Inter";
+}
+.pricing .pricing-box .price-box ul li a i {
+  margin: 0px 5px;
+}
+.pricing .pricing-box .price-box .pr-btn button {
+  border: 0;
+  padding: 0px 20px;
+  color: #ffffff;
+  font-family: "Inter";
+  background: linear-gradient(95deg, #059DFF 15%, #6549D5 45%, #E33FA1 75%, #FB5343 100%) 95%/200% 100%;
+  border-radius: 20px;
+  width: 175px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 16px;
+  margin: 20px 0px;
+}
+.pricing h2, .pricing h6 {
+  font-size: 16px;
+  color: #65676B;
+  font-family: "Inter";
+  text-align: center;
+  font-size: 14px;
+  color: #65676B;
+  font-weight: 500;
+}
+.pricing h2 span, .pricing h6 span {
+  color: #ACACAC;
+}
+.pricing h6 {
+  margin-bottom: 30px;
+}
+
+.screen {
+  width: 100%;
+  padding: 70px 50px 0px;
+  background-color: #0f0f11;
+  border-radius: 10px;
+}
+.screen .s-title h3, .screen .s-title h4 {
+  color: #ffffff;
+  font-size: 47px;
+  font-family: "Inter";
+  text-align: center;
+}
+.screen .s-title h4 {
+  margin-bottom: 20px;
+}
+.screen .s-title p {
+  color: #ffffff;
+  font-size: 16px;
+  color: #65676B;
+  font-family: "Inter";
+  text-align: center;
+}
+.screen .s-title .s-btn1 {
+  margin: 30px 0px;
+}
+.screen .s-title .s-btn1 button {
+  border: 0;
+  padding: 0px 20px;
+  color: #ffffff;
+  font-family: "Inter";
+  background: linear-gradient(95deg, #059DFF 15%, #6549D5 45%, #E33FA1 75%, #FB5343 100%) 95%/200% 100%;
+  border-radius: 20px;
+  width: 270px;
+  height: 65px;
+  font-size: 16px;
+  color: #ffffff;
+  border-radius: 40px;
+  margin: 10px;
+}
+.screen .s-title .s-btn1 button:hover {
+  background: 1px 1px 6px rgba(0, 0, 0, 0.25);
+}
+.screen .s-title .s-btn1 i {
+  margin: 0px 10px;
+}
+.screen .s-title .s-btn1 .s-btn button {
+  border: 0;
+  padding: 0px 20px;
+  color: #ffffff;
+  font-family: "Inter";
+  background: linear-gradient(95deg, #059DFF 15%, #6549D5 45%, #E33FA1 75%, #FB5343 100%) 95%/200% 100%;
+  border-radius: 20px;
+  width: 270px;
+  height: 65px;
+  font-size: 16px;
+  color: #ffffff;
+  border-radius: 40px;
+  margin: 10px;
+  background: rgba(6, 6, 6, 0.987);
+  border: 2px solid rgba(172, 172, 172, 0.2156862745);
+}
+.screen .s-title .s-btn1 .s-btn button i {
+  margin: 0px 10px;
+}
+.screen .s-img img {
+  width: 1040px;
+  height: 938px;
+}
+
+footer .start {
+  width: 100%;
+  padding: 100px 0px 70px;
+}
+footer .start h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-family: "Inter";
+}
+footer .start ul li {
+  margin: 5px 0px;
+}
+footer .start ul li a {
+  color: #ACACAC;
+  font-family: "Inter";
+  text-transform: capitalize;
+  font-weight: 300;
+  position: relative;
+}
+footer .start ul li a::after {
+  width: 0%;
+  position: absolute;
+  content: "";
+  border: 0.3px solid #059DFF;
+  bottom: 0;
+  left: 0;
+  transition: all 1s;
+  opacity: 0;
+}
+footer .start ul li a:hover {
+  color: #059DFF;
+}
+footer .start ul li a:hover::after {
+  width: 100%;
+  opacity: 1;
+}
+footer .start p {
+  color: #ACACAC;
+  margin-bottom: 32px;
+  font-size: 16px;
+  color: #65676B;
+  font-family: "Inter";
+  text-align: center;
+  text-align: left;
+  font-weight: 600;
+  padding-right: 120px;
+  line-height: 30px;
+}
+footer .start .f-icon .icon {
+  width: 48px;
+  height: 48px;
+  background-color: #0f0f11;
+  border-radius: 50%;
+  margin: 0px 5px;
+  text-align: center;
+  transition: all 2s;
+}
+footer .start .f-icon .icon i {
+  color: #ffffff;
+  line-height: 48px;
+}
+footer .start .f-icon .icon:hover {
+  background-color: #059DFF;
+}
+footer .center {
+  width: 100%;
+  padding: 40px 0px;
+  border-top: 1px solid rgba(172, 172, 172, 0.2156862745);
+}
+footer .center h5 {
+  font-size: 16px;
+  color: #65676B;
+  font-family: "Inter";
+  text-align: center;
+  color: #ACACAC;
+  text-align: left;
+  font-weight: 400;
+}
+footer .center h3 {
+  font-family: "Inter";
+  font-size: 36px;
+  color: #ACACAC;
+  margin-bottom: 7px;
+}
+footer .center input {
+  width: 400px;
+  height: 55px;
+  background-color: #0f0f11;
+  border: 0;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 0PX 24PX;
+}
+footer .center .c-btn button {
+  border: 0;
+  padding: 0px 20px;
+  color: #ffffff;
+  font-family: "Inter";
+  background: linear-gradient(95deg, #059DFF 15%, #6549D5 45%, #E33FA1 75%, #FB5343 100%) 95%/200% 100%;
+  border-radius: 20px;
+  font-size: 16px;
+  margin-left: 20px;
+  border-radius: 10px;
+  height: 55px;
+  width: 140px;
+}
+footer .end {
+  width: 100%;
+  height: 70px;
+  border-top: 1px solid rgba(172, 172, 172, 0.2156862745);
+  padding: 20px 0px;
+}
+footer .end h4,
+footer .end h6 {
+  color: #ACACAC;
+  font-size: 16px;
+  color: #65676B;
+  font-family: "Inter";
+  text-align: center;
+  font-weight: 400;
+  position: relative;
+}
+footer .end .line {
+  width: 1px;
+  height: 20px;
+  background-color: rgba(172, 172, 172, 0.2156862745);
+  margin: 0px 8px;
+}
+footer .end h4::after {
+  width: 0%;
+  position: absolute;
+  content: "";
+  border: 0.3px solid #059DFF;
+  bottom: 0;
+  left: 0;
+  transition: all 1s;
+  opacity: 0;
+}
+footer .end h4:hover {
+  color: #059DFF;
+}
+footer .end h4:hover::after {
+  width: 100%;
+  opacity: 1;
+}
+footer .end h6 {
+  font-size: 14px;
+}/*# sourceMappingURL=style.css.map */
